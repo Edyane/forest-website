@@ -315,7 +315,39 @@
 				</div>
 			</div>
 		</div>
-		
+
+		<form class="grid gap-4 rounded-xl bg-verde-900 shadow-2xl p-4 lg:p-8" action="">
+			<div class="grid gap-1">
+				<label class="text-white" for="nome">Nome</label>
+				<input id="nome" name="nome"
+					class="rounded-md border-2 border-verde-800 bg-verde-800 p-2 text-white focus:outline-none focus:ring-2 focus:ring-verde-400 focus:border-verde-900 placeholder:text-verde-900"
+					type="text" />
+			</div>
+			<div class="grid gap-4 sm:grid-cols-2">
+				<div class="grid gap-1">
+					<label class="text-white" for="email">Email</label>
+					<input id="email" name="email"
+						class="rounded-md border-2 border-verde-800 bg-verde-800 p-2 text-white focus:outline-none focus:ring-2 focus:ring-verde-400 focus:border-verde-900 placeholder:text-verde-900"
+						type="email" />
+				</div>
+				<div class="grid gap-1">
+					<label class="text-white" for="telefone">Telefone</label>
+					<input id="telefone" name="telefone"
+						class="rounded-md border-2 border-verde-800 bg-verde-800 p-2 text-white focus:outline-none focus:ring-2 focus:ring-verde-400 focus:border-verde-900 placeholder:text-verde-900"
+						placeholder="(21) 00000-0000" type="text" />
+				</div>
+			</div>
+			<div class="grid gap-1">
+				<label class="text-white" for="mensagem">Mensagem</label>
+				<textarea id="mensagem" name="mensagem" rows="5"
+					class="rounded-md border-2 border-verde-800 bg-verde-800 p-2 text-white focus:outline-none focus:ring-2 focus:ring-verde-400 focus:border-verde-900 placeholder:text-verde-900 resize-none"
+					type="text"></textarea>
+			</div>
+			<button class="place-self-start bg-verde-400 text-verde-900 py-2 px-4 inline-block rounded-full">
+				Enviar Email
+			</button>
+		</form>
+
 	</section>
 
 </body>
